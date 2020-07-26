@@ -52,7 +52,16 @@ class NotificationViewModel extends ReactiveViewModel {
     if(notify){
       _logService.setnotify();
     }
+
+    void deletelog(LogH log){
+    
+ }
+
+
+
   }
+
+
 
   @override
   List<ReactiveServiceMixin> get reactiveServices => [_logService];
